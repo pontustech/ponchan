@@ -17,10 +17,6 @@ require_once "vendor/autoload.php";
 
 @include_once 'inc/lib/parsedown/Parsedown.php'; // fail silently, this isn't a critical piece of code
 
-if (!extension_loaded('gettext')) {
-	require_once 'inc/lib/gettext/gettext.inc';
-}
-
 // the user is not currently logged in as a moderator
 $mod = false;
 
