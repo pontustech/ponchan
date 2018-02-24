@@ -13,20 +13,9 @@ define('TINYBOARD', null);
 
 $microtime_start = microtime(true);
 
-require_once 'inc/display.php';
-require_once 'inc/template.php';
-require_once 'inc/database.php';
-require_once 'inc/events.php';
-require_once 'inc/api.php';
-require_once 'inc/mod/auth.php';
-require_once 'inc/lock.php';
-require_once 'inc/queue.php';
-require_once 'inc/polyfill.php';
-@include_once 'inc/lib/parsedown/Parsedown.php'; // fail silently, this isn't a critical piece of code
+require_once "vendor/autoload.php";
 
-if (!extension_loaded('gettext')) {
-	require_once 'inc/lib/gettext/gettext.inc';
-}
+@include_once 'inc/lib/parsedown/Parsedown.php'; // fail silently, this isn't a critical piece of code
 
 // the user is not currently logged in as a moderator
 $mod = false;

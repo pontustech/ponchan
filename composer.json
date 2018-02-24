@@ -1,0 +1,20 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^2.4",
+        "smmoosavi/php-gettext-core": "^1.0"
+    },
+
+    "autoload": {
+        "files": [
+            "inc/display.php",
+            "inc/template.php",
+            "inc/database.php",
+            "inc/events.php",
+            "inc/api.php",
+            "inc/mod/auth.php",
+            "inc/lock.php",
+            "inc/queue.php",
+            "inc/polyfill.php"
+        ]
+    }
+}
