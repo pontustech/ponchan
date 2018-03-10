@@ -4,8 +4,51 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0c755f39800aaba26cadfb2b57145151",
+    "content-hash": "3daa3dd4e21cbb68b883fe9bc3268e1f",
     "packages": [
+        {
+            "name": "lifo/ip",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lifo101/ip.git",
+                "reference": "3597b6f649333be6d0f44d4344d8c05341c006fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lifo101/ip/zipball/3597b6f649333be6d0f44d4344d8c05341c006fb",
+                "reference": "3597b6f649333be6d0f44d4344d8c05341c006fb",
+                "shasum": ""
+            },
+            "require": {
+                "ext-bcmath": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Lifo\\IP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jason Morriss",
+                    "email": "lifo2013@gmail.com"
+                }
+            ],
+            "description": "IP address helper PHP library for working with IPv4 and IPv6 addresses",
+            "keywords": [
+                "IP",
+                "ip address",
+                "ipv4",
+                "ipv6"
+            ],
+            "time": "2014-05-05T12:58:15+00:00"
+        },
         {
             "name": "smmoosavi/php-gettext-core",
             "version": "v1.0.11-patch1",
