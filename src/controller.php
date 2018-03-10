@@ -5,7 +5,7 @@
 // don't bother with that unless you use smart build or advanced build
 // you can use those parts for your own implementations though :^)
 
-defined('TINYBOARD') or exit;
+
 
 function sb_board($b, $page = 1) { global $config, $build_pages; $page = (int)$page;
   if ($page < 1) return false;

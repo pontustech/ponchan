@@ -4,7 +4,7 @@
  *  Copyright (c) 2010-2013 Tinyboard Development Group
  */
 
-defined('TINYBOARD') or exit;
+
 
 class PreparedQueryDebug {
 	protected $query, $explain_query = false;
