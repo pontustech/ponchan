@@ -1,11 +1,11 @@
 # static html and json
-/*/*.html
-/*/*.json
-/*/res
-/*/src
-/*/thumb
-/*/config.php
-/*.html
+/public/*/*.html
+/public/*/*.json
+/public/*/res
+/public/*/src
+/public/*/thumb
+/public/*/config.php
+/public/*.html
 
 # include some files though
 !/templates/*.html
