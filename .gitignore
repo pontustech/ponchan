@@ -12,7 +12,7 @@
 !/inc/config.php
 
 # minify
-/inc/lib/minify
+/src/lib/minify
 
 # instance-config
 /inc/instance-config.php
