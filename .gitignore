@@ -17,6 +17,9 @@
 # instance-config
 /inc/instance-config.php
 
+# .build/
+.build/
+
 # .installed
 /.installed
 
