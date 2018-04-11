@@ -4,7 +4,7 @@
  *  Copyright (c) 2010-2013 Tinyboard Development Group
  */
 
-defined('TINYBOARD') or exit;
+
 
 function mod_page($title, $template, $args, $subtitle = false) {
 	global $config, $mod;

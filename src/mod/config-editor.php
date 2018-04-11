@@ -4,7 +4,7 @@
  *  Copyright (c) 2010-2013 Tinyboard Development Group
  */
 
-defined('TINYBOARD') or exit;
+
 
 function permission_to_edit_config_var($varname) {
 	global $config, $mod;

@@ -1,18 +1,18 @@
 # static html and json
-/*/*.html
-/*/*.json
-/*/res
-/*/src
-/*/thumb
-/*/config.php
-/*.html
+/public/*/*.html
+/public/*/*.json
+/public/*/res
+/public/*/src
+/public/*/thumb
+/public/*/config.php
+/public/*.html
 
 # include some files though
 !/templates/*.html
 !/inc/config.php
 
 # minify
-/inc/lib/minify
+/src/lib/minify
 
 # instance-config
 /inc/instance-config.php

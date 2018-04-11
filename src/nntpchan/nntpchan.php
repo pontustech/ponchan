@@ -3,7 +3,7 @@
  *  Copyright (c) 2016 vichan-devel
  */
 
-defined('TINYBOARD') or exit;
+
 
 function gen_msgid($board, $id) {
 	global $config;
